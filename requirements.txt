@@ -1,0 +1,13 @@
+﻿flask
+flask-cors
+python-dotenv
+requests
+groq
+openai
+gTTS
+pydub
+pypdf
+python-docx
+easyocr
+waitress
+edge-tts

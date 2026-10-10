@@ -1,0 +1,293 @@
+{
+  "2_English": {
+    "title": "Introducing Yourself",
+    "language": "Japanese",
+    "page": 1,
+    "total_pages": 1,
+    "content": {
+      "passage": "はじめまして。わたしは〜です。よろしくおねがいします。はじめまして、わたしはユキです。よろしくおねがいします。",
+      "steps": [
+        {
+          "text": "はじめまして。",
+          "teaching": {
+            "vocabulary": [],
+            "grammar": "",
+            "translation": "",
+            "error": "sequence item 0: expected str instance, dict found"
+          }
+        },
+        {
+          "text": "わたしは〜です。",
+          "teaching": {
+            "vocabulary": [],
+            "grammar": "",
+            "translation": "",
+            "error": "sequence item 0: expected str instance, dict found"
+          }
+        },
+        {
+          "text": "よろしくおねがいします。",
+          "teaching": {
+            "vocabulary": [],
+            "grammar": "",
+            "translation": "",
+            "error": "sequence item 0: expected str instance, dict found"
+          }
+        },
+        {
+          "text": "はじめまして、わたしはユキです。",
+          "teaching": {
+            "vocabulary": [],
+            "grammar": "",
+            "translation": "",
+            "error": "sequence item 0: expected str instance, dict found"
+          }
+        },
+        {
+          "text": "よろしくおねがいします。",
+          "teaching": {
+            "vocabulary": [],
+            "grammar": "",
+            "translation": "",
+            "error": "sequence item 0: expected str instance, dict found"
+          }
+        }
+      ]
+    }
+  },
+  "1_English": {
+    "title": "Greetings",
+    "language": "Japanese",
+    "page": 1,
+    "total_pages": 1,
+    "content": {
+      "passage": "こんにちは。おはようございます。こんばんは。さようなら。ありがとうございます。すみません。こんにちは、元気ですか。はい、元気です。",
+      "steps": [
+        {
+          "text": "こんにちは。",
+          "teaching": {
+            "translation": "Hello.",
+            "vocabulary": [
+              {
+                "word": "こんにちは",
+                "meaning": "Hello (greeting used any time of day)"
+              }
+            ],
+            "grammar": "こんにちは is a standalone greeting. It is used at any time of day and does not require a subject or verb. It is polite and can be used with or without a following phrase.",
+            "pronunciation": "ko-n-ni-chi-wa. The first syllable 'ko' is short, 'n' is nasal, 'ni' is short, 'chi' is a single sound, and 'wa' is pronounced like 'wa' in 'water'. The pitch starts low and rises slightly on the last syllable.",
+            "examples": [
+              {
+                "sentence": "こんにちは、元気ですか？",
+                "translation": "Hello, how are you?"
+              },
+              {
+                "sentence": "こんにちは、今日はいい天気ですね。",
+                "translation": "Hello, the weather is nice today."
+              }
+            ],
+            "practice": "Write a short greeting to a friend using こんにちは and a polite question about their day."
+          }
+        },
+        {
+          "text": "おはようございます。",
+          "teaching": {
+            "translation": "Good morning (polite)",
+            "vocabulary": [
+              {
+                "word": "おはよう",
+                "meaning": "morning; good morning"
+              },
+              {
+                "word": "ございます",
+                "meaning": "polite form of ある (to be); used to show respect"
+              }
+            ],
+            "grammar": "おはようございます is a polite greeting used in the morning. It is a set phrase and does not require a subject or verb.",
+            "pronunciation": "oh-hah-yoh go-zai-masu. The 'go' is pronounced like 'go' in 'go', 'zai' like 'zeye', 'masu' like 'mah-soo'. The 'おはよう' part is pronounced oh-hah-yoh.",
+            "examples": [
+              {
+                "sentence": "おはようございます。今日はいい天気ですね。",
+                "translation": "Good morning. The weather is nice today, isn't it?"
+              },
+              {
+                "sentence": "先生に会ったら、おはようございますと言いました。",
+                "translation": "When I met the teacher, I said, 'Good morning.'"
+              }
+            ],
+            "practice": "Fill in the blank: ___ (polite) when you meet someone in the morning."
+          }
+        },
+        {
+          "text": "こんばんは。",
+          "teaching": {
+            "translation": "Good evening.",
+            "vocabulary": [
+              {
+                "word": "こんばんは",
+                "meaning": "Good evening (polite greeting)"
+              }
+            ],
+            "grammar": "こんばんは is a standalone greeting. It is used in the evening and does not require a subject or verb.",
+            "pronunciation": "kon-ban-wa: /kɒnˈbɑːn.wɑː/ – the 'kon' sounds like 'con' in 'concrete', 'ban' like 'ban' in 'banner', and 'wa' like 'wa' in 'water'. The pitch starts low, rises on 'ban', and falls on 'wa'.",
+            "examples": [
+              {
+                "sentence": "こんばんは、田中さん。お元気ですか？",
+                "translation": "Good evening, Mr. Tanaka. How are you?"
+              },
+              {
+                "sentence": "こんばんは。今日はとても寒いですね。",
+                "translation": "Good evening. It's very cold today, isn't it?"
+              }
+            ],
+            "practice": "Write a short greeting you would say when you meet someone in the evening. Use こんばんは."
+          }
+        },
+        {
+          "text": "さようなら。",
+          "teaching": {
+            "translation": "Goodbye.",
+            "vocabulary": [
+              {
+                "word": "さようなら",
+                "meaning": "Goodbye (polite farewell)"
+              }
+            ],
+            "grammar": "さようなら is a standalone phrase used as a farewell. It does not need a subject or verb and can be said by itself.",
+            "pronunciation": "sa-yo-u-na-ra (sa‑yo‑u‑na‑ra). The 'sa' and 'na' are short, the 'yo' and 'u' are slightly elongated, and the final 'ra' is pronounced lightly.",
+            "examples": [
+              {
+                "sentence": "さようなら、またね。",
+                "translation": "Goodbye, see you later."
+              },
+              {
+                "sentence": "先生にさようならと言った。",
+                "translation": "I said goodbye to the teacher."
+              }
+            ],
+            "practice": "Fill in the blank: When you leave a classroom, you say ___."
+          }
+        },
+        {
+          "text": "ありがとうございます。",
+          "teaching": {
+            "translation": "Thank you (polite)",
+            "vocabulary": [
+              {
+                "word": "ありがとう",
+                "meaning": "thank you (informal)"
+              },
+              {
+                "word": "ございます",
+                "meaning": "polite form of ある (to be); used to show respect"
+              }
+            ],
+            "grammar": "ありがとうございます is a set phrase meaning \"Thank you\" used politely. It is a polite form of ありがとう and can be said on its own without a subject or verb.",
+            "pronunciation": "arigatou gozaimasu: \"a-ree-gah-toh\" + \"go-za-i-masu\". The final \"u\" in ありがとう is silent, sounding like \"o\". The \"i\" in gozaimasu is short. Stress is even across the phrase.",
+            "examples": [
+              {
+                "sentence": "昨日のプレゼントをいただき、ありがとうございます。",
+                "translation": "Thank you for the gift yesterday."
+              },
+              {
+                "sentence": "先生、説明していただきありがとうございます。",
+                "translation": "Thank you for explaining, teacher."
+              }
+            ],
+            "practice": "Translate the following into Japanese: \"Thank you (polite)\"."
+          }
+        },
+        {
+          "text": "すみません。",
+          "teaching": {
+            "translation": "Excuse me / I'm sorry.",
+            "vocabulary": [
+              {
+                "word": "すみません",
+                "meaning": "Excuse me / I'm sorry (polite apology or request for attention)"
+              }
+            ],
+            "grammar": "すみません is a set phrase used to apologize or get someone's attention. It does not contain a subject or verb and can be said on its own.",
+            "pronunciation": "su-mi-ma-sen. Each mora is pronounced with equal length. The 'su' is a soft 's' sound, 'mi' like 'me', 'me' like 'meh', and 'n' is a nasal consonant.",
+            "examples": [
+              {
+                "sentence": "すみません、道を教えてください。",
+                "translation": "Excuse me, could you tell me the way?"
+              },
+              {
+                "sentence": "すみません、遅れました。",
+                "translation": "I'm sorry, I'm late."
+              }
+            ],
+            "practice": "Write a short sentence using すみません to ask for help."
+          }
+        },
+        {
+          "text": "こんにちは、元気ですか。",
+          "teaching": {
+            "translation": "Hello, how are you?",
+            "vocabulary": [
+              {
+                "word": "こんにちは",
+                "meaning": "Hello (greeting used any time of day)"
+              },
+              {
+                "word": "元気",
+                "meaning": "healthy/fine (noun)"
+              },
+              {
+                "word": "です",
+                "meaning": "copula, polite form of だ (to be)"
+              },
+              {
+                "word": "か",
+                "meaning": "question particle, turns a statement into a question"
+              }
+            ],
+            "grammar": "The phrase uses the polite copula です to state a condition and the question particle か to ask a question. こんにちは is a standalone greeting and does not need a subject or verb.",
+            "pronunciation": "konnichiwa (こにちわ) – the ん is a nasal sound, the ち is a soft 'chee' sound. genki (げんき) – the げ is a soft 'ge', ん is nasal, き is 'kee'.",
+            "examples": [
+              {
+                "sentence": "今日は元気ですか？",
+                "translation": "Are you well today?"
+              },
+              {
+                "sentence": "彼は元気ですか？",
+                "translation": "Is he well?"
+              }
+            ],
+            "practice": "Translate the following into Japanese: \"Hello, are you fine?\""
+          }
+        },
+        {
+          "text": "はい、元気です。",
+          "teaching": {
+            "translation": "Yes, I'm fine.",
+            "vocabulary": [
+              {
+                "word": "はい",
+                "meaning": "Yes"
+              },
+              {
+                "word": "元気",
+                "meaning": "healthy/fine (noun)"
+              }
+            ],
+            "grammar": "The sentence uses the polite copula です to state a condition. The subject (the speaker) is omitted, which is common in Japanese. The structure is: [subject] + です + adjective/noun. Here, 元気です means \"I am fine/healthy.\"",
+            "pronunciation": "はい (hai) sounds like \"high\". 元気 (genki) is pronounced \"gen-kee\" with a short e sound. です (desu) is pronounced \"dess\" with a short e.",
+            "examples": [
+              {
+                "sentence": "はい、元気です。今日はいい天気です。",
+                "translation": "Yes, I'm fine. Today is good weather."
+              },
+              {
+                "sentence": "元気ですか？はい、元気です。",
+                "translation": "Are you fine? Yes, I'm fine."
+              }
+            ],
+            "practice": "Fill in the blank with the correct word: はい、_____です。"
+          }
+        }
+      ]
+    }
+  }
+}

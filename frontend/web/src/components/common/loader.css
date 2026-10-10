@@ -1,0 +1,123 @@
+/*frontend/web/src/components/common/loader.css*/
+/* =====================================================
+   APP LOADER — orbiting-scripts animation
+   Used across every page in place of the old plain
+   "Loading..." text. Pure CSS, no JS animation cost.
+   ===================================================== */
+
+.app-loader{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:30px;
+  background:var(--ink);
+  color:var(--text-muted);
+}
+
+.app-loader-orbit{
+  position:relative;
+  width:130px;
+  height:130px;
+}
+
+/* Center glowing book */
+
+.app-loader-core{
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:42px;
+  border-radius:50%;
+  background:radial-gradient(circle at 32% 30%, rgba(226,164,68,.35), rgba(226,164,68,.04) 70%);
+  animation:app-loader-pulse 2.2s ease-in-out infinite;
+  filter:drop-shadow(0 0 20px rgba(226,164,68,.45));
+}
+
+@keyframes app-loader-pulse{
+  0%,100%{ transform:scale(1); }
+  50%{ transform:scale(1.09); }
+}
+
+/* Rotating ring holding the orbiting characters */
+
+.app-loader-ring{
+  position:absolute;
+  inset:0;
+  animation:app-loader-spin 6s linear infinite;
+}
+
+@keyframes app-loader-spin{
+  to{ transform:rotate(360deg); }
+}
+
+.app-loader-item{
+  position:absolute;
+  inset:0;
+}
+
+/* Each character sits at the top edge of the ring, then the ring's
+   rotation carries it around the circle. Applying the reverse spin
+   directly on the character cancels out the ring's rotation so the
+   letter itself always stays upright while it travels. */
+
+.app-loader-char{
+  position:absolute;
+  top:0;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:30px;
+  height:30px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  background:linear-gradient(135deg,var(--gold),#f0bd6c);
+  color:var(--ink-deep);
+  font-weight:700;
+  font-size:14px;
+  box-shadow:0 4px 14px rgba(226,164,68,.4);
+  animation:app-loader-spin-reverse 6s linear infinite;
+}
+
+@keyframes app-loader-spin-reverse{
+  to{ transform:translate(-50%,-50%) rotate(-360deg); }
+}
+
+.app-loader-label{
+  font-size:14px;
+  letter-spacing:.4px;
+  animation:app-loader-fade 1.8s ease-in-out infinite;
+}
+
+@keyframes app-loader-fade{
+  0%,100%{ opacity:.5; }
+  50%{ opacity:1; }
+}
+
+@media (prefers-reduced-motion:reduce){
+  .app-loader-core,
+  .app-loader-ring,
+  .app-loader-char,
+  .app-loader-label{
+    animation:none !important;
+  }
+}
+
+@media (max-width:420px){
+  .app-loader-orbit{
+    width:104px;
+    height:104px;
+  }
+  .app-loader-core{
+    font-size:34px;
+  }
+  .app-loader-char{
+    width:26px;
+    height:26px;
+    font-size:12px;
+  }
+}
