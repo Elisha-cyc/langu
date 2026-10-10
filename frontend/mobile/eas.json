@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 24.12.1",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "http://172.20.10.3:5000",
+        "EXPO_PUBLIC_APP_KEY": "W3I8LVmi9ZJxXYN8mhbslbHe-VwQmCCLmm329N_kxlI"
+      }
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

@@ -1,5 +1,8 @@
 // mobile/src/api.js
-let BASE = "";
+
+// Starts from the address baked in at build time (eas.json -> EXPO_PUBLIC_API_URL).
+// setBase() can still override it, for example from a screen where the user types an address.
+let BASE = (process.env.EXPO_PUBLIC_API_URL || "").trim().replace(/\/+$/, "");
 export const setBase = (u) => {
   BASE = u.trim().replace(/\/+$/, "");
 };
@@ -7,6 +10,7 @@ export const setBase = (u) => {
 // Must be exactly the same text as APP_KEY in your backend .env file.
 // If APP_KEY is empty in .env, this value is ignored by the server.
 const KEY = process.env.EXPO_PUBLIC_APP_KEY || "";
+
 // timeoutMs: lessons can take longer than 60 seconds (the AI explains every
 // sentence). The old fixed 60 s cancelled them and Library/Scan hid the error.
 export async function call(path, opts = {}, timeoutMs = 60000) {
@@ -32,7 +36,7 @@ export async function call(path, opts = {}, timeoutMs = 60000) {
       throw new Error(
         "Can't reach the server at " +
           BASE +
-          ". Check the IP address, that Flask is running, and that your phone and computer are on the same network.",
+          ". Check the address, that the backend is running, and that you have an internet connection.",
       );
     }
     if (canceled) {
